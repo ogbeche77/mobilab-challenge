@@ -3,6 +3,26 @@ body {
   color: white;
 }
 
+svg {
+  margin-top: -5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.searchbox {
+  max-width: 40vw;
+  margin: 0 auto;
+  min-width: 300px;
+}
+
+.loading {
+  text-align: center;
+  width: 100%;
+  margin-top: 42vh;
+  margin-bottom: 42vh;
+
+}
+
 .navbar {
   max-height: 200px;
   text-align: center;
@@ -11,4 +31,28 @@ body {
   color: #bc6c25;
   border-bottom: 1px solid;
 
+}
+
+.card:hover {
+  opacity: 1;
+}
+
+.card {
+  opacity: 0.8;
+  cursor: pointer;
+  background-color: #2e3035;
+
+  .card-img-top {
+    cursor: pointer;
+  }
+
+  span {
+    margin: 15px;
+  }
+
+  .description {
+    background-color: #2e3035;
+    font-weight: bold;
+    margin: 15px;
+  }
 }
