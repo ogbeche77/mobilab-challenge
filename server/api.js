@@ -1,6 +1,6 @@
 const axios = require("axios");
 
-const baseUrl = "http://localhost:8000";
+const baseUrl = "https://api.imgur.com/3/";
 exports.instance = axios.create({
     baseURL: baseUrl,
     timeout: 300000,
@@ -9,6 +9,3 @@ exports.instance = axios.create({
         Authorization: "Client-ID 8910ce123c3eb2e",
     },
 });
-
-
-
