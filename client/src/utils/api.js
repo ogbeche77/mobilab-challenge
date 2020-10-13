@@ -6,7 +6,7 @@ exports.instance = axios.create({
     timeout: 300000,
     headers: {
         "content-type": "application/json",
-        Authorization: "Client-ID 8910ce123c3eb2e",
+        Authorization: "Client-ID cec8e84a5992a0f",
     },
 });
 

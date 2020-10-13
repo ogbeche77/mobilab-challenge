@@ -1,6 +1,6 @@
 
 const express = require("express");
-const displayApi = require("./DisplayApi.js");
+const displayApi = require("./displayApi.js");
 const cors = require("cors");
 const app = express(),
     DIST_DIR = __dirname;
